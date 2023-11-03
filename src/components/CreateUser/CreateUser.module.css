@@ -1,0 +1,32 @@
+.container{
+    background-color: white;
+    padding: 1.6rem;
+    border-radius: 0.2rem;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 0.5rem 0.8rem -0.2rem rgba(0,0,0,.8);
+}
+.submitButton{
+    background-color: #3c425c;
+    margin-top:  0.5rem;
+    color: whitesmoke;
+    border: none;
+    font-size: 0.5rem;
+    font-weight: 700;
+    padding: 0.5rem 1.6rem;
+    border-radius: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0.1rem 0.4rem -0.2rem rgba(0,0,0,.8);
+
+}
+.submitButton:hover{
+    background-color: aqua;
+}
+.submitButton:active{
+    transform: scale(0.90);
+}
+.feedbackText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    
+}
